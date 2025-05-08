@@ -1,0 +1,73 @@
+.background{
+  background: linear-gradient(to right, #f8c8d1, #ff8c42, #ffea74);
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.evenBackground{
+  background: linear-gradient(to right, #f8c8d1, #cce7ff, #ffea74);
+}
+
+.counterTitle{
+  font-size: 3.0rem;
+}
+
+#countNumber{
+  font-size: 2.4rem;
+}
+
+.btnAction{
+  display: flex;
+  flex-direction: row;
+  gap: 1.2em;
+}
+
+#addReset{
+  margin: 2em;
+}
+
+.btnIncrease,
+.btnDecrease,
+.btnReset{
+  padding: 10px 20px;
+  background-color: yellow; 
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.btnIncrease:hover,
+.btnDecrease:hover,
+.btnReset:hover {
+  background-color: #ff6f20; 
+  }
+
+  .btnToggle {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnToggle:hover {
+    background-color: #4caf50;
+  }
+  
+  .secretMessage {
+    font-style: italic;
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 1em;
+  }
+  
